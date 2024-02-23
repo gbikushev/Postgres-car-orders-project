@@ -1,4 +1,4 @@
-Car_ID,Car_Brand,Car_Model,Car_Color,Manufacture_Year
+car_id,car_brand,car_model,car_color,manufacture_year
 0,Ford,Club Wagon,Teal,2010
 1,Cadillac,Escalade ESV,Fuscia,2015
 2,Mazda,Miata MX-5,Orange,2011
@@ -521,7 +521,7 @@ Car_ID,Car_Brand,Car_Model,Car_Color,Manufacture_Year
 519,Chevrolet,Tahoe,Turquoise,2016
 520,Mercury,Sable,Yellow,2014
 521,Toyota,Matrix,Violet,2013
-522,Saab,09-May,Orange,2009
+522,Saab,9-May,Orange,2009
 523,Lexus,SC,Indigo,2012
 524,Dodge,Charger,Pink,2012
 525,Hummer,H1,Crimson,2015
@@ -629,7 +629,7 @@ Car_ID,Car_Brand,Car_Model,Car_Color,Manufacture_Year
 627,Dodge,Aries,Yellow,2017
 628,Buick,Regal,Blue,2009
 629,Subaru,Outback,Blue,2017
-630,Saab,09-Mar,Puce,2007
+630,Saab,9-Mar,Puce,2007
 631,MINI,Cooper Clubman,Puce,2014
 632,Ford,F150,Red,2014
 633,Chevrolet,Traverse,Orange,2014

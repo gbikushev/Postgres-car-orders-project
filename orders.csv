@@ -1,4 +1,4 @@
-order_id,user_id,car_id,credit_card_type,order_amount
+order_id,customer_id,car_id,credit_card_type,order_amount
 0,245,277,jcb,157500
 1,71,82,jcb,417000
 2,307,347,jcb,97500

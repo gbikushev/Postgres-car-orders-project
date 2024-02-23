@@ -14,17 +14,16 @@ CREATE TYPE credit_card as ENUM
     'diners-club-international', 'visa'
 );
 
-CREATE TABLE IF NOT EXISTS cars
+CREATE TABLE cars
 (
     car_id bigserial PRIMARY KEY,
     car_brand text NOT NULL,
     car_model text NOT NULL,
     car_color text NOT NULL,
-    manufacture_year integer CHECK (manufacture_year >= 1900 AND 
-									manufacture_year <= EXTRACT(YEAR FROM CURRENT_DATE)) NOT NULL
+    manufacture_year integer CHECK (manufacture_year >= 1900 AND manufacture_year <= EXTRACT(YEAR FROM CURRENT_DATE)) NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS customers
+CREATE TABLE customers
 (
     customer_id bigserial PRIMARY KEY,
     first_name text NOT NULL,
@@ -34,7 +33,7 @@ CREATE TABLE IF NOT EXISTS customers
     email_address text CHECK (email_address LIKE '%@%') UNIQUE
 );
 
-CREATE TABLE IF NOT EXISTS orders
+CREATE TABLE orders
 (
     order_id bigserial PRIMARY KEY,
     customer_id integer NOT NULL,

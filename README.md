@@ -20,11 +20,15 @@ The dataset was obtained from combining these two csv files and transforming int
 
 ## Specific outputs / Functionality
 
-1) 
+1) Print number of customers with total order_amount less or greater than "order_amount"
+Require:
+ - query number (1)
+ - condition (greater, less)
+ - order_amount (any number)
 ```bash
-git clone https://github.com/your/project.git
-cd project
-pip install -r requirements.txt
+
+python data_query.py --query=1 --condition=greater --order_amount=1500000
+
 ```
 2)
 

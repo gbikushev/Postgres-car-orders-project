@@ -23,17 +23,33 @@ The dataset was obtained from combining these two csv files and transforming int
 1) Print number of customers with total order_amount less or greater than "order_amount"
 Require:
  - query number (1)
- - condition (greater, less)
+ - condition ("greater", "less")
  - order_amount (any number)
 ```bash
-
 python data_query.py --query=1 --condition=greater --order_amount=1500000
 
 ```
-2)
+(picture)
+2) print all cars that were sent to customer to country = "country"
+Require:
+ - query number (2)
+ - country (any country)
+```bash
+python data_query.py --query=2 --country=Russia
+
+```
+
+3) print sum of order_amount made with credit_card_type = "credit_card_type"
+Require:
+ - query number (3)
+ - credit_card_type (any credit_card_type)
+
+Possible options for credit_card_type:
+'americanexpress', 'jcb', 'diners-club-us-ca', 'diners-club-carte-blanche', 
+'diners-club-enroute', 'mastercard', 'china-unionpay', 'bankcard', 'switch', 
+'laser', 'maestro', 'instapayment', 'solo', 'visa-electron', 'diners-club-international', 'visa'
 
 ```bash
-git clone https://github.com/your/project.git
-cd project
-pip install -r requirements.txt 
+python data_query.py --query=3 --credit_card_type=visa
+
 ```

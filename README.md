@@ -20,8 +20,16 @@ The dataset was obtained from combining these two csv files and transforming int
 
 ## Specific outputs / Functionality
 
-
+1) 
 ```bash
 git clone https://github.com/your/project.git
 cd project
 pip install -r requirements.txt
+```
+2)
+
+```bash
+git clone https://github.com/your/project.git
+cd project
+pip install -r requirements.txt 
+```

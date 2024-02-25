@@ -20,26 +20,34 @@ The dataset was obtained from combining these two csv files and transforming int
 
 ## Specific outputs / Functionality
 
-1) Print number of customers with total order_amount less or greater than "order_amount"
+### 1) Print number of customers with total order_amount less or greater than "order_amount"
 Require:
  - query number (1)
  - condition ("greater", "less")
  - order_amount (any number)
 ```bash
 python data_query.py --query=1 --condition=greater --order_amount=1500000
-
 ```
-(picture)
-2) print all cars that were sent to customer to country = "country"
+![Example Image](images/1.png)
+```bash
+python data_query.py --query=1 --condition=less --order_amount=100000
+```
+![Example Image](images/2.png)
+
+### 2) print all cars that were sent to customer to country = "country"
 Require:
  - query number (2)
  - country (any country)
 ```bash
 python data_query.py --query=2 --country=Russia
-
 ```
+![Example Image](images/3.png)
+```bash
+python data_query.py --query=2 --country=Pakistan
+```
+![Example Image](images/4.png)
 
-3) print sum of order_amount made with credit_card_type = "credit_card_type"
+### 3) print sum of order_amount made with credit_card_type = "credit_card_type"
 Require:
  - query number (3)
  - credit_card_type (any credit_card_type)
@@ -51,5 +59,9 @@ Possible options for credit_card_type:
 
 ```bash
 python data_query.py --query=3 --credit_card_type=visa
-
 ```
+![Example Image](images/5.png)
+```bash
+python data_query.py --query=3 --credit_card_type=mastercard
+```
+![Example Image](images/6.png)

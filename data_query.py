@@ -59,7 +59,7 @@ if __name__ == '__main__':
         
         elif args.condition == 'less':
 
-            select_query = f'SELECT COUNT(*) as number_of_sutomers \n\
+            select_query = f'SELECT COUNT(*) as number_of_customers \n\
                             FROM ( \n\
                             SELECT customers.customer_id \n\
                             FROM customers \n\

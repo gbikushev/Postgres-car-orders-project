@@ -1,4 +1,4 @@
-# Gleb Bikushev CA_1 (Data Architecture)
+# Postgres Data Architecture project
 
 ## Description
 
